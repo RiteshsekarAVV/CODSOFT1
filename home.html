@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>A.V.V.RITESH SEKAR</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="download.jpeg" alt="Your Name">
+        <p id="bio"><b>I am an aspiring cybersecurity professional, pursuing my undergraduate degree in Information Technology
+            at Kumaraguru College of Technology,Coimbatore. I can efficiently take up leadership roles and responsibilities. 
+            I also take keen interest in organizing events and assisting in official work</b>
+        </p>
+    </section>
+    <section id="skills">
+        <h2>My Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>Cybersecurity</li>
+            <li>CSS         </li>
+            <li>JavaScript</li>
+            <li>PHP</li>
+        </ul>
+    </section>
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project">
+            <h3>UniFoods</h3>
+            <img src="unifoods.jpeg" alt="Project 1">
+            <p>An application based solution to solve problem of queues and non availability of food in college cafeterias</p>
+        </div>
+        <div class="project">
+            <h3>Second hand Car Sales Website</h3>
+            <img src="web.jpeg" alt="Project 2">
+            <p>A Dynamic Website for Second hand car sales with widespread implementation of HTML,CSS,Javascript and Database applications</p>
+        </div>
+        
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form method="post" action="contact.php">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message"></textarea>
+                </div>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>  
+    <footer>
+        <p>&copy; 2024    Made with &hearts; by A.V.V.RITESH SEKAR       . All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
